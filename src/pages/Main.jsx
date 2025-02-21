@@ -5,8 +5,8 @@ const MainMenu = () => {
 
   const routes = {
     "Tic-Tac-Toe": "/tic-tac-toe",
-    "Tic-Tac-Toe vs PC": "/tic-tac-toe-vs-pc",
-    "To-Do List": "/to-do-list"
+    "Tic-Tac-Toe vs PC": "/tictacpc",
+    "To-Do List": "/todo-list"
   };
 
   return (

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import ReturnButton from "../components/ReturnButton";
 
 function Square({ value, onSquareClick }) {
   return (
@@ -63,6 +64,7 @@ export default function Game() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-white">
+    <ReturnButton />
       <h1 className="text-3xl font-bold mb-8">Tic-Tac-Toe</h1>
       <div className="flex gap-8 items-start">
         <div className="w-48 bg-gray-900 text-white p-4 rounded-lg border border-red-500 shadow-lg shadow-red-500/50 overflow-y-auto max-h-96">
